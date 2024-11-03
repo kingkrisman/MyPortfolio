@@ -12,7 +12,7 @@ const Backbtn = () => {
 
       setScrollPercent(totalScrollPercent);
 
-      // Add "show" class when scrolled more than 5%
+      
       if (totalScrollPercent > 5) {
         document.querySelector("[data-back-top-btn]").classList.add("show");
       } else {

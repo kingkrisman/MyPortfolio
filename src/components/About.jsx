@@ -7,18 +7,18 @@ const About = () => {
   const tabContents = React.useRef([]);
 
   const openTab = (tabName, event) => {
-    // Remove active classes from all tab links and contents
+   
     tabLinks.current.forEach(link => link.classList.remove("active-link"));
     tabContents.current.forEach(content => content.classList.remove("active-tab"));
 
-    // Add active class to the clicked link and the corresponding content
+  
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabName).classList.add("active-tab");
   };
 
   return (
     <div>
-      {/* <!----------about---------> */}
+    
       <div id="about">
         <div className="container">
           <div className="row">

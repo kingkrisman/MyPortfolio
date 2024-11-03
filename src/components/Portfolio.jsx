@@ -13,7 +13,7 @@ import workthree from "../assets/work-3.png"
 const Portfolio=()=>{
     return(
         <div>
-{/* <!--------------portfolio------------------> */}
+
 <div id="portfolio">
       <div className="container">
         <h1 className="sub-title">My Work</h1>

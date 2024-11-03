@@ -7,7 +7,7 @@ import menu from "../assets/Sidebar.svg";
 import exit from "../assets/exit.svg";
 
 const Header = () => {
-  const typedRef = useRef(null); // Reference for Typed.js animation
+  const typedRef = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {

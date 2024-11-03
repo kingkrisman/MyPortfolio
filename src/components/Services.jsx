@@ -12,8 +12,7 @@ const Services=()=>{
     return(
         <div>
    
-{/* 
-    <!-------services---------> */}
+
 
 <div id="services">
       <div class="container">

@@ -34,7 +34,7 @@ const Contact = () => {
 
   return (
     <div>
-      {/* <!---------contact----------------> */}
+    
       <div id="contact">
         <div className="container">
           <div className="row">
