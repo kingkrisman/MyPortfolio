@@ -63,8 +63,8 @@ Beyond development and design, Christian is also adept at mobile phone repairs, 
 
               <div className="tab-contents active-tab" id="skills" ref={el => tabContents.current.push(el)}>
                 <ul>
-                  <li><span>UI/UX</span><br />Designing Web/app interfaces, User Research, prototyping, and testing</li>
-                  <li><span>Web Development</span><br />HTML, CSS, JavaScript, React</li>
+                  <li><span>UI/UX</span><br />Designing Web/app interfaces, User Research, prototyping, Wireframing and testing, Figma</li>
+                  <li><span>Web Development</span><br />HTML, CSS, JavaScript, React, TypeScript, Node JS, Version Control/Git, Animations and Graphics, Page Load Optimization, API Integration, Package Manafer(npm)</li>
                   <li><span>WIX Studio Expert</span><br />Web Development and Design</li>
                   <li><span>Sales Funnel</span><br /> Creating and optimizing sales funnels</li>
                   <li><span>Content Writing</span><br /> Writing engaging content for websites and blogs</li>
@@ -81,7 +81,7 @@ Beyond development and design, Christian is also adept at mobile phone repairs, 
                   <li><span>2024 - Current</span><br />Team Lead at WillyWillMar LTD.</li>
                   <li><span>2024 - Current</span><br />Website Manager at WillyWillMar LTD.</li>
                   <li><span>2024 - Current</span><br />Software Development at Sail Innovative Lab.</li>
-                  <li><span>2023 - 2024</span><br />Computer science teacher</li>
+                  <li><span>2023 - 2024</span><br />Computer science and Mathematics teacher</li>
 
                 </ul>
               </div>
