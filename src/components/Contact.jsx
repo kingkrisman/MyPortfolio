@@ -46,7 +46,7 @@ const Contact = () => {
                 <a href="https://x.com/kris10dani?s=11&t=SPbPMgEPNU1NC-8P9LusQg"><img src={x} alt="" /></a>
                 <a href="https://www.linkedin.com/in/christian-daniels1104"><img src={linkedin} alt="" /></a>
                 <a href="https://github.com/kingkrisman"><img src={git} alt="" /></a>
-                <a href="https://www.instagram.com/kris10dani/profilecard/?igsh=eTA4Y3hkcnBmbzA1"><img src={inst} alt="" /></a>
+                <a href="https://www.instagram.com/christian_daniels11/profilecard/?igsh=eWZ2YWI0b2xmMmpv"><img src={inst} alt="" /></a>
               </div>
               <a href={cv} download className="btn btn2">Download CV</a>
             </div>

@@ -366,7 +366,7 @@ padding: 50px 0;
 
 animation: growth  linear;
 animation-timeline: view();
-animation-range: entry 0% cover 40%;
+animation-range: entry 0% cover 10%;
 }
 
 .work-list{
@@ -427,11 +427,17 @@ width: 60px;
 height: 60px;
 border-radius: 50%;
 text-align: center;
+
 }
 
 
 
+.link{
 
+  display:flex;
+  flex-direction:row;
+  gap:10px;
+}
 
 .work:hover img{
 transform: scale(1.1);
@@ -451,10 +457,11 @@ padding: 14px 50px;
 border-radius: 6px;
 text-decoration: none;
 color: #fff;
+background:#ff004f;
 transition: background 0.5s;
 }
 .btn:hover{
-background: #ff004f;
+background: #ff003f;
 }
 
 
@@ -731,3 +738,19 @@ color: #61b752;
 margin-top: -40px;
 display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

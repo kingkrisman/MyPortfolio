@@ -23,7 +23,7 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="about-col-1">
-              <img src={abt} alt="About" />
+              <img src="https://res.cloudinary.com/duycrcary/image/upload/v1744015939/IMG_0399_abhtux.jpg" alt="About" />
             </div>
             <div className="about-col-2">
               <h1 className="sub-title">About Me</h1>
@@ -64,7 +64,7 @@ Beyond development and design, Christian is also adept at mobile phone repairs, 
               <div className="tab-contents active-tab" id="skills" ref={el => tabContents.current.push(el)}>
                 <ul>
                   <li><span>UI/UX</span><br />Designing Web/app interfaces, User Research, prototyping, Wireframing and testing, Figma</li>
-                  <li><span>Web Development</span><br />HTML, CSS, JavaScript, React, TypeScript, Node JS, Version Control/Git, Animations and Graphics, Page Load Optimization, API Integration, Package Manager(npm)</li>
+                  <li><span>Web Development</span><br />HTML, CSS, JavaScript, React, Tailwind, Gsap,  TypeScript, Node JS, Version Control/Git, Animations and Graphics, Page Load Optimization, API Integration, Package Manager(npm)</li>
                   <li><span>WIX Studio Expert</span><br />Web Development and Design</li>
                   <li><span>Sales Funnel</span><br /> Creating and optimizing sales funnels</li>
                   <li><span>Content Writing</span><br /> Writing engaging content for websites and blogs</li>
@@ -78,17 +78,18 @@ Beyond development and design, Christian is also adept at mobile phone repairs, 
               <div className="tab-contents" id="experience" ref={el => tabContents.current.push(el)}>
                 <ul>
                   <li><span>2023 - 2024</span><br />UI/UX Training</li>
-                  <li><span>2024 - Current</span><br />Team Lead at WillyWillMar LTD.</li>
-                  <li><span>2024 - Current</span><br />Website Manager at WillyWillMar LTD.</li>
-                  <li><span>2024 - Current</span><br />Software Development at Sail Innovative Lab.</li>
+                  <li><span>2024 - 2025</span><br />Team Lead at WillyWillMar LTD.</li>
+                  <li><span>2024 - 2025</span><br />Website Manager at WillyWillMar LTD.</li>
+                  <li><span>2024 - 2025</span><br />Software Development at Sail Innovative Lab.</li>
                   <li><span>2023 - 2024</span><br />Computer science and Mathematics teacher</li>
+                  <li><span>2023 - 2024</span><br />Developer and Designer at VANit Logistics</li>
 
                 </ul>
               </div>
               <div className="tab-contents" id="education" ref={el => tabContents.current.push(el)}>
                 <ul>
                   <li><span>2023</span><br />Ordinary National Diploma in Computer Science at Lagos State Polytechnic</li>
-                  <li><span>Ongoing</span><br />Certificate in Software Development at SAIL LAB</li>
+                  <li><span>2025</span><br />Certificate in Software Development at SAIL LAB</li>
                   <li><span>2024</span><br />Certificate in UI/UX Design</li>
                   <li><span>2021</span><br />Certificate in Phone Hardware and Software Repair</li>
                 </ul>

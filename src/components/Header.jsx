@@ -11,7 +11,7 @@ const Header = () => {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ['Frontend Developer', 'Software Developer', 'User Research', 'UI/UX Designer'],
+      strings: ['Frontend Developer', 'Backend Developer', 'User Experience Research', 'UI/UX Designer'],
       typeSpeed: 50,
       backSpeed: 25,
       loop: true,
