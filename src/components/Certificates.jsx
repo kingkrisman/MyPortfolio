@@ -1,5 +1,7 @@
 import React from "react";
 import "../App.css";
+import certificatePdf1 from "../assets/DanielsChristianCV.pdf";
+import certificatePdf2 from "../assets/my-cv.pdf";
 
 const Certificates = () => {
   const certificates = [
@@ -12,7 +14,7 @@ const Certificates = () => {
         "Comprehensive course covering HTML, CSS, JavaScript, React, and modern web development practices.",
       image:
         "https://res.cloudinary.com/duycrcary/image/upload/v1743982914/Untitled_design_27_nqdwer.png", // Placeholder
-      link: "/src/assets/DanielsChristianCV.pdf",
+      link: certificatePdf1,
     },
     {
       id: 2,
@@ -23,7 +25,7 @@ const Certificates = () => {
         "Advanced JavaScript programming including ES6+, async programming, and modern frameworks.",
       image:
         "https://res.cloudinary.com/duycrcary/image/upload/v1743982908/Untitled_design_17_zmvmle.png", // Placeholder
-      link: "/src/assets/my-cv.pdf",
+      link: certificatePdf2,
     },
   ];
 
