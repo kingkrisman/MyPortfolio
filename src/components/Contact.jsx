@@ -13,38 +13,35 @@ const Contact = () => {
   const formRef = useRef();
   const [msg, setMsg] = useState("");
 
-  const formEndpoint = `https://formspree.io/f/c16e3213-6201-4e9b-b469-af949b193e07`;
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const formData = new FormData(formRef.current);
+    formData.append("access_key", "c16e3213-6201-4e9b-b469-af949b193e07");
 
-    fetch(formEndpoint, {
-      method: "POST",
-      body: formData,
-      headers: {
-        Accept: "application/json",
-      },
-    })
-      .then((response) => {
-        if (response.ok) {
-          setMsg("Message sent successfully! Thank you for contacting me.");
-          formRef.current.reset();
-        } else {
-          setMsg("There was an error sending your message. Please try again.");
-        }
-        setTimeout(() => {
-          setMsg("");
-        }, 5000);
-      })
-      .catch((error) => {
-        console.error("Error!", error.message);
-        setMsg("There was an error sending your message. Please try again.");
-        setTimeout(() => {
-          setMsg("");
-        }, 5000);
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
       });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setMsg("Message sent successfully! Thank you for contacting me.");
+        formRef.current.reset();
+      } else {
+        console.log("Error", data);
+        setMsg("There was an error sending your message. Please try again.");
+      }
+    } catch (error) {
+      console.log("Error", error);
+      setMsg("There was an error sending your message. Please try again.");
+    }
+
+    setTimeout(() => {
+      setMsg("");
+    }, 5000);
   };
 
   return (
