@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from "react";
 
 import "../../src/App.css";
-import Typed from 'typed.js';
+import Typed from "typed.js";
 import logo from "../assets/image00002.png";
 import menu from "../assets/Sidebar.svg";
 import exit from "../assets/exit.svg";
@@ -12,7 +12,12 @@ const Header = () => {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ['Frontend Developer', 'Backend Developer', 'User Experience Research', 'UI/UX Designer'],
+      strings: [
+        "Frontend Developer",
+        "Backend Developer",
+        "User Experience Research",
+        "UI/UX Designer",
+      ],
       typeSpeed: 50,
       backSpeed: 25,
       loop: true,
@@ -52,18 +57,39 @@ const Header = () => {
           <nav>
             <img src={logo} className="logo" alt="Logo" />
             <ul id="sidemenu">
-              <li><a href="#header">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <img src={exit} className="fa-solid fa-x" onClick={closemenu} alt="Close menu" />
+              <li>
+                <a href="#header">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <img
+                src={exit}
+                className="fa-solid fa-x"
+                onClick={closemenu}
+                alt="Close menu"
+              />
             </ul>
-            <img src={menu} className="fa-solid fa-bars" onClick={openmenu} alt="Open menu" />
+            <img
+              src={menu}
+              className="fa-solid fa-bars"
+              onClick={openmenu}
+              alt="Open menu"
+            />
           </nav>
           <div className="header-text">
             <div ref={typedRef} id="typed-output"></div>
-            <h1>Hi, I'm
+            <h1>
+              Hi, I'm
               <span
                 className="name-hover"
                 onMouseEnter={() => setShowQuote(true)}
@@ -80,19 +106,23 @@ const Header = () => {
                     </div>
                     <div className="quote-body">
                       <p className="quote-text">
-                        I always get the job done, you have the idea, I can bring it to life
+                        I always get the job done, you have the idea, I can
+                        bring it to life
                       </p>
                     </div>
                     <div className="quote-footer">
                       <div className="quote-signature">
                         <span className="signature-line"></span>
-                        <span className="signature-text">Christian Daniels</span>
+                        <span className="signature-text">
+                          Christian Daniels
+                        </span>
                       </div>
                     </div>
                   </div>
                 )}
               </span>
-              </span><br />Daniels From Nigeria
+              <br />
+              Daniels From Nigeria
             </h1>
           </div>
         </div>
