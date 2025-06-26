@@ -150,6 +150,142 @@ nav ul li a:hover::after {
   color: #ff004f;
 }
 
+/* Quote Card Hover Effect */
+.name-hover {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.name-hover:hover {
+  text-shadow: 0 0 20px rgba(255, 0, 79, 0.8);
+  transform: scale(1.05);
+}
+
+.quote-card {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.95),
+    rgba(26, 26, 26, 0.95)
+  );
+  backdrop-filter: blur(20px);
+  border: 2px solid #ff004f;
+  border-radius: 20px;
+  padding: 25px;
+  min-width: 350px;
+  max-width: 400px;
+  z-index: 1000;
+  animation: quote-fade-in 0.4s ease-out;
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 0, 79, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.quote-content {
+  text-align: center;
+  position: relative;
+}
+
+.quote-icon {
+  font-size: 24px;
+  margin-bottom: 15px;
+  display: block;
+  animation: quote-pulse 2s ease-in-out infinite;
+}
+
+.quote-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0 0 15px 0;
+  font-weight: 500;
+  font-style: italic;
+  position: relative;
+}
+
+.quote-text::before,
+.quote-text::after {
+  content: '"';
+  font-size: 20px;
+  color: #ff004f;
+  font-weight: bold;
+}
+
+.quote-author {
+  font-size: 14px;
+  color: #ff004f;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.quote-arrow {
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #ff004f;
+}
+
+.quote-arrow::before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: -10px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgba(0, 0, 0, 0.95);
+}
+
+@keyframes quote-fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+}
+
+@keyframes quote-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* Mobile responsiveness for quote card */
+@media only screen and (max-width: 600px) {
+  .quote-card {
+    min-width: 280px;
+    max-width: 320px;
+    padding: 20px;
+    top: -100px;
+  }
+
+  .quote-text {
+    font-size: 14px;
+  }
+
+  .quote-author {
+    font-size: 12px;
+  }
+}
+
 /*about - Modern Professional Design*/
 
 #about {
