@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import "../../src/App.css";
 
-
 const Portfolio = () => {
   // State to track if more work should be shown
   const [showMore, setShowMore] = useState(false);
 
   // Function to handle "See More" button click
-  const handleSeeMore = () => {
-    setShowMore(true);
+  const toggleShowMore = () => {
+    setShowMore(!showMore);
   };
 
   return (
@@ -36,37 +35,22 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="work">
-           
-
-
-
-
-          <img
-                  src="https://res.cloudinary.com/duycrcary/image/upload/v1743982908/Untitled_design_17_zmvmle.png"
-                  alt="Work 4"
-                />
-                <div className="layer">
-                  <h3>Drawing Canvas</h3>
-                  <p>
-                    An interactive web-based drawing application built with
-                    HTML5 Canvas, JavaScript, and CSS. Users can draw freely,
-                    choose brush colors and sizes, clear the canvas, and
-                    download their artwork.
-                  </p>
-                  <div className="link">
-                    <a href="https://kingkrisman.github.io/DrawingDesk/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/DrawingDesk.git">
-                      🧑‍💻
-                    </a>
-                  </div>
-                </div>
-
-
-
-
-
-
-
+            <img
+              src="https://res.cloudinary.com/duycrcary/image/upload/v1743982908/Untitled_design_17_zmvmle.png"
+              alt="Work 4"
+            />
+            <div className="layer">
+              <h3>Drawing Canvas</h3>
+              <p>
+                An interactive web-based drawing application built with HTML5
+                Canvas, JavaScript, and CSS. Users can draw freely, choose brush
+                colors and sizes, clear the canvas, and download their artwork.
+              </p>
+              <div className="link">
+                <a href="https://kingkrisman.github.io/DrawingDesk/"> 🔗</a>{" "}
+                <a href="https://github.com/kingkrisman/DrawingDesk.git">🧑‍💻</a>
+              </div>
+            </div>
           </div>
           <div className="work">
             <img
@@ -115,35 +99,29 @@ const Portfolio = () => {
                 </div>
               </div>
 
-
-
-
-              
-
-
-
-
-
-
-
               <div className="work">
-              <img
-              src="https://res.cloudinary.com/duycrcary/image/upload/v1743982913/Untitled_design_25_gwmihb.png"
-              alt="Work 2"
-            />
-            <div className="layer">
-              <h3>Amazon Clone</h3>
-              <p>
-                It includes product listings, a shopping cart, and a clean,
-                intuitive layout. Designed to demonstrate proficiency in
-                frontend development, component-based architecture, and
-                responsive design.
-              </p>
-              <div className="link">
-                <a href="https://kingkrisman.github.io/amazon_clone/"> 🔗</a>{" "}
-                <a href="https://github.com/kingkrisman/amazon_clone.git">🧑‍💻</a>
-              </div>
-            </div>
+                <img
+                  src="https://res.cloudinary.com/duycrcary/image/upload/v1743982913/Untitled_design_25_gwmihb.png"
+                  alt="Work 2"
+                />
+                <div className="layer">
+                  <h3>Amazon Clone</h3>
+                  <p>
+                    It includes product listings, a shopping cart, and a clean,
+                    intuitive layout. Designed to demonstrate proficiency in
+                    frontend development, component-based architecture, and
+                    responsive design.
+                  </p>
+                  <div className="link">
+                    <a href="https://kingkrisman.github.io/amazon_clone/">
+                      {" "}
+                      🔗
+                    </a>{" "}
+                    <a href="https://github.com/kingkrisman/amazon_clone.git">
+                      🧑‍💻
+                    </a>
+                  </div>
+                </div>
               </div>
               <div className="work">
                 <img
@@ -421,14 +399,18 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3> ProDoc(AI)</h3>
                   <p>
-                    ProDoc is a web app designed specifically for
-                    technical writers. It main purpose is to simplify the
-                    process of creating, formatting, and publishing technical
-                    Doc...
+                    ProDoc is a web app designed specifically for technical
+                    writers. It main purpose is to simplify the process of
+                    creating, formatting, and publishing technical Doc...
                   </p>
                   <div className="link">
-                    <a href="https://artificial-intelligence-y7y4-dn3vp0tfv.vercel.app"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/Artificial_Intelligence.git">🧑‍💻</a>
+                    <a href="https://artificial-intelligence-y7y4-dn3vp0tfv.vercel.app">
+                      {" "}
+                      ���
+                    </a>{" "}
+                    <a href="https://github.com/kingkrisman/Artificial_Intelligence.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -440,7 +422,13 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>OCR</h3>
                   <p>
-                  A web-based Optical Character Recognition tool that extracts text from uploaded images using JavaScript and the Tesseract.js library. Users can upload images or drag-and-drop files to instantly convert printed or handwritten text into editable digital format. This project demonstrates image processing, API integration, and real-time text rendering in a clean UI.
+                    A web-based Optical Character Recognition tool that extracts
+                    text from uploaded images using JavaScript and the
+                    Tesseract.js library. Users can upload images or
+                    drag-and-drop files to instantly convert printed or
+                    handwritten text into editable digital format. This project
+                    demonstrates image processing, API integration, and
+                    real-time text rendering in a clean UI.
                   </p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/OCR/"> 🔗</a>{" "}
@@ -456,8 +444,13 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Gym Page</h3>
                   <p>
-                  A modern and responsive website for a fitness center, built with HTML, CSS, and JavaScript. It features sections for classes, trainers, pricing plans, testimonials, and a contact form. Designed with an energetic aesthetic, this project highlights frontend development, responsive layout design, and user-focused navigation for health and wellness services.
-                   
+                    A modern and responsive website for a fitness center, built
+                    with HTML, CSS, and JavaScript. It features sections for
+                    classes, trainers, pricing plans, testimonials, and a
+                    contact form. Designed with an energetic aesthetic, this
+                    project highlights frontend development, responsive layout
+                    design, and user-focused navigation for health and wellness
+                    services.
                   </p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/gym-page/"> 🔗</a>{" "}
@@ -473,11 +466,18 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Time Parallex </h3>
                   <p>
-                  A visually engaging webpage featuring a smooth parallax scrolling effect that represents the passage of time. Built with HTML, CSS, and JavaScript, it layers background elements to create depth and motion as users scroll. This project showcases advanced CSS animations, scroll-based interactivity, and creative storytelling through design.
+                    A visually engaging webpage featuring a smooth parallax
+                    scrolling effect that represents the passage of time. Built
+                    with HTML, CSS, and JavaScript, it layers background
+                    elements to create depth and motion as users scroll. This
+                    project showcases advanced CSS animations, scroll-based
+                    interactivity, and creative storytelling through design.
                   </p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/time-design/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/time-design.git">🧑‍💻</a>
+                    <a href="https://github.com/kingkrisman/time-design.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -489,7 +489,9 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Techco</h3>
                   <p>
-                  This project demonstrates clean UI/UX design, responsive layouts, and a corporate aesthetic tailored for the tech industry.
+                    This project demonstrates clean UI/UX design, responsive
+                    layouts, and a corporate aesthetic tailored for the tech
+                    industry.
                   </p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/techco/"> 🔗</a>{" "}
@@ -505,11 +507,18 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Math Canvas</h3>
                   <p>
-                  An interactive web-based canvas that allows users to draw and visualize mathematical equations, shapes, and graphs. Built using HTML5 Canvas, JavaScript, and MathJax (or similar), it supports freehand drawing, equation rendering, and coordinate plotting. This project demonstrates creative UI design, math integration, and canvas API usage.
+                    An interactive web-based canvas that allows users to draw
+                    and visualize mathematical equations, shapes, and graphs.
+                    Built using HTML5 Canvas, JavaScript, and MathJax (or
+                    similar), it supports freehand drawing, equation rendering,
+                    and coordinate plotting. This project demonstrates creative
+                    UI design, math integration, and canvas API usage.
                   </p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/MathCanvas/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/MathCanvas.git">🧑‍💻</a>
+                    <a href="https://github.com/kingkrisman/MathCanvas.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -521,11 +530,17 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Football Score Predictor</h3>
                   <p>
-                  A web app that predicts football match outcomes (win, lose, or draw) based on team stats and historical data.
+                    A web app that predicts football match outcomes (win, lose,
+                    or draw) based on team stats and historical data.
                   </p>
                   <div className="link">
-                    <a href="https://kingkrisman.github.io/FootballScorePredictor/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/FootballScorePredictor.git">🧑‍💻</a>
+                    <a href="https://kingkrisman.github.io/FootballScorePredictor/">
+                      {" "}
+                      🔗
+                    </a>{" "}
+                    <a href="https://github.com/kingkrisman/FootballScorePredictor.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -537,11 +552,18 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Wander Lust</h3>
                   <p>
-                  Designed to inspire wanderlust, this project demonstrates clean UI design, intuitive navigation, and effective content organization for a travel service.
+                    Designed to inspire wanderlust, this project demonstrates
+                    clean UI design, intuitive navigation, and effective content
+                    organization for a travel service.
                   </p>
                   <div className="link">
-                    <a href="https://kingkrisman.github.io/travel-agency/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/travel-agency.git">🧑‍💻</a>
+                    <a href="https://kingkrisman.github.io/travel-agency/">
+                      {" "}
+                      🔗
+                    </a>{" "}
+                    <a href="https://github.com/kingkrisman/travel-agency.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -553,7 +575,8 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>NFT Marketplace</h3>
                   <p>
-                  A modern and interactive webpage showcasing NFT collections, built with HTML, CSS, and JavaScript and Gsap Animation. 
+                    A modern and interactive webpage showcasing NFT collections,
+                    built with HTML, CSS, and JavaScript and Gsap Animation.
                   </p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/nft/"> 🔗</a>{" "}
@@ -569,11 +592,15 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Fitness Page</h3>
                   <p>
-                  The design focuses on motivating users with clean layouts, dynamic visuals, and easy navigation for a healthy lifestyle.
+                    The design focuses on motivating users with clean layouts,
+                    dynamic visuals, and easy navigation for a healthy
+                    lifestyle.
                   </p>
                   <div className="link">
                     <a href="https://fitness-yoga-nu.vercel.app/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/Fitness_Yoga.git">🧑‍💻</a>
+                    <a href="https://github.com/kingkrisman/Fitness_Yoga.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -585,11 +612,18 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Daniels Network</h3>
                   <p>
-                  This project demonstrates clean UI/UX design, responsive layouts, and a corporate aesthetic tailored for the tech industry.
+                    This project demonstrates clean UI/UX design, responsive
+                    layouts, and a corporate aesthetic tailored for the tech
+                    industry.
                   </p>
                   <div className="link">
-                    <a href="https://kingkrisman.github.io/Daniels-Network/"> 🔗</a>{" "}
-                    <a href="hhttps://github.com/kingkrisman/Daniels-Network.git">🧑‍💻</a>
+                    <a href="https://kingkrisman.github.io/Daniels-Network/">
+                      {" "}
+                      🔗
+                    </a>{" "}
+                    <a href="hhttps://github.com/kingkrisman/Daniels-Network.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -601,11 +635,14 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Blog Hero page</h3>
                   <p>
-                  This project demonstrates clean UI/UX design, responsive layouts.
+                    This project demonstrates clean UI/UX design, responsive
+                    layouts.
                   </p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/blog-hero/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/blog-hero.git">🧑‍💻</a>
+                    <a href="https://github.com/kingkrisman/blog-hero.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -617,11 +654,14 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Ap Estate</h3>
                   <p>
-                  This project demonstrates clean UI/UX design, responsive layouts.
+                    This project demonstrates clean UI/UX design, responsive
+                    layouts.
                   </p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/ap-estate/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/ap-estate.git">🧑‍💻</a>
+                    <a href="https://github.com/kingkrisman/ap-estate.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -633,11 +673,18 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>FolderFlow</h3>
                   <p>
-                  A web-based file management system that allows users to upload, organize, and manage files through a simple, intuitive interface.
+                    A web-based file management system that allows users to
+                    upload, organize, and manage files through a simple,
+                    intuitive interface.
                   </p>
                   <div className="link">
-                    <a href="https://kingkrisman.github.io/file-manager-adv/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/file-manager-adv.git">🧑‍💻</a>
+                    <a href="https://kingkrisman.github.io/file-manager-adv/">
+                      {" "}
+                      🔗
+                    </a>{" "}
+                    <a href="https://github.com/kingkrisman/file-manager-adv.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -649,11 +696,18 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>File Manager</h3>
                   <p>
-                  A web-based file management system that allows users to upload, organize, and manage files through a simple, intuitive interface.
+                    A web-based file management system that allows users to
+                    upload, organize, and manage files through a simple,
+                    intuitive interface.
                   </p>
                   <div className="link">
-                    <a href="https://kingkrisman.github.io/FileManager-simple-/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/FileManager-simple-.git">🧑‍💻</a>
+                    <a href="https://kingkrisman.github.io/FileManager-simple-/">
+                      {" "}
+                      🔗
+                    </a>{" "}
+                    <a href="https://github.com/kingkrisman/FileManager-simple-.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -665,8 +719,8 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Lasu</h3>
                   <p>
-                  A professional and responsive website designed for a school,
-                  built using HTML, CSS, and JavaScript.
+                    A professional and responsive website designed for a school,
+                    built using HTML, CSS, and JavaScript.
                   </p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/lasu/"> 🔗</a>{" "}
@@ -682,11 +736,14 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Task Manager</h3>
                   <p>
-                  A productivity-focused web app designed to help users organize and track their tasks.
+                    A productivity-focused web app designed to help users
+                    organize and track their tasks.
                   </p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/TaskManager/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/TaskManager.git">🧑‍💻</a>
+                    <a href="https://github.com/kingkrisman/TaskManager.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -698,13 +755,22 @@ const Portfolio = () => {
                 <div className="layer">
                   <h3>Voice Recorder</h3>
                   <p>
-                  A simple and user-friendly web app that allows users to record, play back, and save audio files directly in their browser. Built with JavaScript, HTML5, and the Web Audio API, it features a clean interface, audio controls, and the ability to download recorded files. This project demonstrates real-time audio processing and client-side data storage.
-
-
+                    A simple and user-friendly web app that allows users to
+                    record, play back, and save audio files directly in their
+                    browser. Built with JavaScript, HTML5, and the Web Audio
+                    API, it features a clean interface, audio controls, and the
+                    ability to download recorded files. This project
+                    demonstrates real-time audio processing and client-side data
+                    storage.
                   </p>
                   <div className="link">
-                    <a href="https://kingkrisman.github.io/voiceRecorder/"> 🔗</a>{" "}
-                    <a href="https://github.com/kingkrisman/voiceRecorder.git">🧑‍💻</a>
+                    <a href="https://kingkrisman.github.io/voiceRecorder/">
+                      {" "}
+                      🔗
+                    </a>{" "}
+                    <a href="https://github.com/kingkrisman/voiceRecorder.git">
+                      🧑‍💻
+                    </a>
                   </div>
                 </div>
               </div>
@@ -715,9 +781,7 @@ const Portfolio = () => {
                 />
                 <div className="layer">
                   <h3>Map</h3>
-                  <p>
-                  An interactive map application built with JavaScript. 
-                  </p>
+                  <p>An interactive map application built with JavaScript.</p>
                   <div className="link">
                     <a href="https://kingkrisman.github.io/map/"> 🔗</a>{" "}
                     <a href="https://github.com/kingkrisman/map.git">🧑‍💻</a>
@@ -728,12 +792,10 @@ const Portfolio = () => {
           )}
         </div>
 
-        {/* "See More" button */}
-        {!showMore && (
-          <button onClick={handleSeeMore} className="btn">
-            See More
-          </button>
-        )}
+        {/* Toggle button for See More/See Less */}
+        <button onClick={toggleShowMore} className="btn">
+          {showMore ? "See Less" : "See More"}
+        </button>
       </div>
     </div>
   );
