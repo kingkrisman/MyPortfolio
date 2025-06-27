@@ -6,12 +6,12 @@ const Experience = () => {
     {
       id: 1,
       title: "Full Stack Developer",
-      company: "Freelance",
-      period: "2023 - Present",
+      company: "Da'Sayonce Real Estate",
+      period: "2025 - Present",
       description:
         "Developing web applications using React, Node.js, and modern technologies. Creating responsive designs and optimizing user experiences.",
       achievements: [
-        "Built 30+ responsive websites",
+        "Built responsive websites",
         "Improved client satisfaction by 95%",
         "Specialized in modern web technologies",
       ],
@@ -19,9 +19,9 @@ const Experience = () => {
     },
     {
       id: 2,
-      title: "Frontend Developer",
-      company: "Tech Solutions",
-      period: "2022 - 2023",
+      title: "Full Stack Developer",
+      company: "Willy Will Mar LTD",
+      period: "2023 - 2024",
       description:
         "Focused on creating interactive user interfaces and implementing modern design principles.",
       achievements: [
@@ -33,14 +33,14 @@ const Experience = () => {
     },
     {
       id: 3,
-      title: "Web Developer",
-      company: "Digital Agency",
-      period: "2021 - 2022",
+      title: "Full Stack Developer",
+      company: "SAIL Innovation Lab",
+      period: "2024 - 2025",
       description:
-        "Started my journey in web development, learning and applying fundamental programming concepts.",
+        "Furthered my journey in web development, learning and applying advance programming concepts.",
       achievements: [
         "Learned multiple programming languages",
-        "Built first commercial projects",
+        "Added new skills",
         "Gained experience in team collaboration",
       ],
       icon: "🚀",
