@@ -165,7 +165,7 @@ nav ul li a:hover::after {
 
 .quote-card {
   position: absolute;
-  top: -160px;
+  top: -100px;
   left: 50%;
   transform: translateX(-50%);
   width: 380px;
