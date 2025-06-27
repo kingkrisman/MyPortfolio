@@ -20,11 +20,11 @@ const DataVisualization = () => {
 
   const projectStats = [
     { name: "Web Apps", value: 25, color: "#ff004f" },
-    { name: "Mobile Apps", value: 8, color: "#4CAF50" },
+    { name: "UI/UX", value: 25, color: "#4CAF50" },
     { name: "APIs", value: 15, color: "#2196F3" },
     { name: "E-commerce", value: 12, color: "#FF9800" },
     { name: "Dashboards", value: 10, color: "#9C27B0" },
-    { name: "Landing Pages", value: 20, color: "#00BCD4" },
+    { name: "Landing Pages", value: 25, color: "#00BCD4" },
   ];
 
   const experienceData = [
@@ -305,7 +305,7 @@ const DataVisualization = () => {
         <div className="viz-stats">
           <div className="stat-card">
             <div className="stat-icon">🚀</div>
-            <div className="stat-number">90+</div>
+            <div className="stat-number">70+</div>
             <div className="stat-label">Projects Completed</div>
           </div>
           <div className="stat-card">
@@ -315,12 +315,12 @@ const DataVisualization = () => {
           </div>
           <div className="stat-card">
             <div className="stat-icon">🎯</div>
-            <div className="stat-number">5+</div>
+            <div className="stat-number">3+</div>
             <div className="stat-label">Years Experience</div>
           </div>
           <div className="stat-card">
             <div className="stat-icon">🏆</div>
-            <div className="stat-number">98%</div>
+            <div className="stat-number">100%</div>
             <div className="stat-label">Client Satisfaction</div>
           </div>
         </div>
