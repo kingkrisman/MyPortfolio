@@ -88,7 +88,7 @@ const Header = () => {
           <div className="header-text">
             <div ref={typedRef} id="typed-output"></div>
             <h1>
-              Hi, I'm
+              Hi, I'm 
               <span
                 className="name-hover"
                 onMouseEnter={() => setShowQuote(true)}
@@ -113,7 +113,7 @@ const Header = () => {
                       <div className="quote-signature">
                         <span className="signature-line"></span>
                         <span className="signature-text">
-                          Christian Daniels
+                           Christian Daniels
                         </span>
                       </div>
                     </div>
