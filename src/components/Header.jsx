@@ -13,10 +13,9 @@ const Header = () => {
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
       strings: [
-        "Frontend Developer",
-        "Backend Developer",
-        "User Experience Research",
-        "UI/UX Designer",
+        "Full Stack Developer",
+        "UI/UX",
+        "Video Graphic Design",
       ],
       typeSpeed: 50,
       backSpeed: 25,
