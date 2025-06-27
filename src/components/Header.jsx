@@ -105,7 +105,7 @@ const Header = () => {
                     </div>
                     <div className="quote-body">
                       <p className="quote-text">
-                        I always get the job done, you have the idea, I can
+                        I always get the job done, you have the idea,</br>I can
                         bring it to life
                       </p>
                     </div>
