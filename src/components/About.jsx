@@ -30,22 +30,50 @@ const About = () => {
           skill: "UI/UX Design",
           details: "Figma, Adobe XD, Responsive Design, Mobile-First",
         },
+
+         {
+          skill: "Video Graphic Design",
+          details: "Adobe Premiere, After Effects, Motion Graphics, Color Grading",
+        },
+
+        {
+        skill: "Mobile Phone Repair",
+          details: "Screen Replacement, Battery Repair, Diagnostic Testing, Soldering",
+        },
+ {
+        skill: "Teaching",
+          details: "Curriculum Development, Classroom Management, Student Assessment, Educational Technology",
+        },
+
+
+        
       ],
     },
     experience: {
       title: "Professional Experience",
       content: [
+       
+            {
+          skill: "2025 - Present",
+          details: "Full Stack Developer - Da'sayonce Real Estate",
+        },
+        
+        
         {
           skill: "2023 - Present",
           details: "Full Stack Developer - Freelance & Contract Work",
         },
         {
-          skill: "2022 - 2023",
-          details: "Frontend Developer - Digital Agency Solutions",
+          skill: "2024 - 2025",
+          details: "Full Stack Developer - Willy Will Mar LTD",
         },
         {
-          skill: "2021 - 2022",
-          details: "Web Developer - Tech Startup Environment",
+          skill: "2024 - 2025",
+          details: "Full Stack Developer Intern - SAIL Innovation Lab",
+        },
+        {
+          skill: "2023 - 2024",
+          details: "UI/UX - Learning & Growth Phase",
         },
         {
           skill: "2020 - 2021",
@@ -58,20 +86,22 @@ const About = () => {
       content: [
         {
           skill: "Computer Science",
-          details: "Bachelor's Degree in Computer Science & Engineering",
+          details: "National Diploma in Computer Science",
         },
         {
-          skill: "Web Development",
-          details: "Full Stack Web Development Certification",
+          skill: "Full Stack Development",
+          details: "Full Stack Development Certification",
         },
-        {
-          skill: "Cloud Computing",
-          details: "AWS Certified Developer Associate",
-        },
+      
         {
           skill: "Modern Frameworks",
           details: "React.js & Node.js Advanced Certifications",
         },
+ {
+          skill: "UI/UX",
+          details: "UI/UX Certification",
+        },
+        
         {
           skill: "Continuous Learning",
           details: "Regular upskilling in emerging technologies",
@@ -122,7 +152,7 @@ const About = () => {
             {/* Quick Stats */}
             <div className="about-stats">
               <div className="stat-item">
-                <div className="stat-number">50+</div>
+                <div className="stat-number">75+</div>
                 <div className="stat-label">Projects</div>
               </div>
               <div className="stat-item">
@@ -130,7 +160,7 @@ const About = () => {
                 <div className="stat-label">Years Exp</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">30+</div>
+                <div className="stat-number">100%</div>
                 <div className="stat-label">Happy Clients</div>
               </div>
             </div>
