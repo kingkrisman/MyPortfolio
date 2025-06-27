@@ -113,7 +113,7 @@ const Header = () => {
                       <div className="quote-signature">
                         <span className="signature-line"></span>
                         <span className="signature-text">
-                          <span> </span> Christian Daniels
+                          <span><div> </div></span> Christian Daniels
                         </span>
                       </div>
                     </div>
