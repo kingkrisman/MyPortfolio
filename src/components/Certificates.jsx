@@ -7,9 +7,9 @@ const Certificates = () => {
   const certificates = [
     {
       id: 1,
-      title: "Frontend Web Development Certificate",
-      organization: "Tech Academy",
-      date: "2023",
+      title: "Full Stack Development Certificate",
+      organization: "SAIL Innovation Lab",
+      date: "2024-2025",
       description:
         "Comprehensive course covering HTML, CSS, JavaScript, React, and modern web development practices.",
       image:
@@ -18,11 +18,11 @@ const Certificates = () => {
     },
     {
       id: 2,
-      title: "JavaScript Certification",
-      organization: "Code Institute",
+      title: "Computer Science Certification",
+      organization: "Lagos State Polytechnic",
       date: "2023",
       description:
-        "Advanced JavaScript programming including ES6+, async programming, and modern frameworks.",
+        "study of computers and computational systems, focusing on the theory, design, development, and application of software and hardware. It encompasses areas like algorithms, data structures, programming, artificial intelligence, machine learning, cybersecurity, databases, networking, and software engineering",
       image:
         "https://cdn.builder.io/api/v1/image/assets%2Fa60f75f82e1740d2898e900ca0249b8c%2Ffaaf7aa403b34313b84ebea4e6d6e01f", // Placeholder
       link: certificatePdf2,
