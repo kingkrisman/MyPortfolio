@@ -13,7 +13,7 @@ const Certificates = () => {
       description:
         "Comprehensive course covering HTML, CSS, JavaScript, React, and modern web development practices.",
       image:
-        "https://res.cloudinary.com/duycrcary/image/upload/v1743982914/Untitled_design_27_nqdwer.png", // Placeholder
+        "https://cdn.builder.io/api/v1/image/assets%2Fa60f75f82e1740d2898e900ca0249b8c%2F5cbb746eddd241d5b223b1a88c20b521", // Placeholder
       link: certificatePdf1,
     },
     {
@@ -24,7 +24,7 @@ const Certificates = () => {
       description:
         "Advanced JavaScript programming including ES6+, async programming, and modern frameworks.",
       image:
-        "https://res.cloudinary.com/duycrcary/image/upload/v1743982908/Untitled_design_17_zmvmle.png", // Placeholder
+        "https://cdn.builder.io/api/v1/image/assets%2Fa60f75f82e1740d2898e900ca0249b8c%2Ffaaf7aa403b34313b84ebea4e6d6e01f", // Placeholder
       link: certificatePdf2,
     },
   ];

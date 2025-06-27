@@ -106,7 +106,7 @@ const About = () => {
             <div className="about-image-container">
               <div className="about-image-wrapper">
                 <img
-                  src="https://res.cloudinary.com/duycrcary/image/upload/v1743982914/Untitled_design_27_nqdwer.png"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Fa60f75f82e1740d2898e900ca0249b8c%2F32541532ae04434eb4c521147527b329"
                   alt="Christian Daniels - Full Stack Developer"
                   className="about-image"
                 />
