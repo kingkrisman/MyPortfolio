@@ -121,7 +121,7 @@ const Header = () => {
                 )}
               </span>
               <br />
-              Daniels From Nigeria
+              Daniels 
             </h1>
           </div>
         </div>
