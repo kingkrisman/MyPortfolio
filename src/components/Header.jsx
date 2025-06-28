@@ -120,7 +120,7 @@ const Header = () => {
                   </div>
                 )}
               </span>
-              <br />
+             
               Daniels 
             </h1>
           </div>
