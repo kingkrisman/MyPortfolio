@@ -120,8 +120,8 @@ const Header = () => {
                   </div>
                 )}
               </span>
-             
-              Daniels 
+             <br />
+              Daniels From Nigeria
             </h1>
           </div>
         </div>
