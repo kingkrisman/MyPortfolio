@@ -17,7 +17,7 @@ const Portfolio = () => {
       description:
         "Leading development of complex web applications using modern tech stack. Specializing in React, Node.js, and cloud solutions.",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2Fa60f75f82e1740d2898e900ca0249b8c%2F45bc02de19904365b2a6f5524ea108b2?format=webp&width=800",
+        "https://cdn.builder.io/api/v1/image/assets%2Fa60f75f82e1740d2898e900ca0249b8c%2Fa5338a8889db4d709d9632af47a7d5b5",
       liveUrl: "https://www.dasayoncerealestate.com",
       githubUrl: "https://github.com/kingkrisman/Builder-nova-sanctuary.git",
       tags: ["React", "Node.js", "Real Estate", "Full Stack"],
@@ -134,7 +134,7 @@ const Portfolio = () => {
               <span className="stat-label">Projects</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">5+</span>
+              <span className="stat-number">3+</span>
               <span className="stat-label">Years</span>
             </div>
             <div className="stat-item">
