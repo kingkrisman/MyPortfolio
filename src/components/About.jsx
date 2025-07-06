@@ -31,34 +31,32 @@ const About = () => {
           details: "Figma, Adobe XD, Responsive Design, Mobile-First",
         },
 
-         {
+        {
           skill: "Video Graphic Design",
-          details: "Adobe Premiere, After Effects, Motion Graphics, Color Grading",
+          details:
+            "Adobe Premiere, After Effects, Motion Graphics, Color Grading",
         },
 
         {
-        skill: "Mobile Phone Repair",
-          details: "Screen Replacement, Battery Repair, Diagnostic Testing, Soldering",
+          skill: "Mobile Phone Repair",
+          details:
+            "Screen Replacement, Battery Repair, Diagnostic Testing, Soldering",
         },
- {
-        skill: "Teaching",
-          details: "Curriculum Development, Classroom Management, Student Assessment, Educational Technology",
+        {
+          skill: "Teaching",
+          details:
+            "Curriculum Development, Classroom Management, Student Assessment, Educational Technology",
         },
-
-
-        
       ],
     },
     experience: {
       title: "Professional Experience",
       content: [
-       
-            {
+        {
           skill: "2025 - Present",
           details: "Full Stack Developer - Da'sayonce Real Estate",
         },
-        
-        
+
         {
           skill: "2023 - Present",
           details: "Full Stack Developer - Freelance & Contract Work",
@@ -92,16 +90,16 @@ const About = () => {
           skill: "Full Stack Development",
           details: "Full Stack Development Certification",
         },
-      
+
         {
           skill: "Modern Frameworks",
           details: "React.js & Node.js Advanced Certifications",
         },
- {
+        {
           skill: "UI/UX",
           details: "UI/UX Certification",
         },
-        
+
         {
           skill: "Continuous Learning",
           details: "Regular upskilling in emerging technologies",
@@ -173,7 +171,6 @@ const About = () => {
               <h1 className="about-title">
                 About <span className="highlight">Christian</span>
               </h1>
-              <div className="title-underline"></div>
             </div>
 
             <div className="about-intro">
