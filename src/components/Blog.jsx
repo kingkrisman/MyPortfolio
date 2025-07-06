@@ -384,18 +384,10 @@ const Blog = () => {
                 </div>
               </div>
               <div className="modal-body">
-                <p>{selectedPost.excerpt}</p>
-                <p>
-                  This is a preview of the full article. In a real
-                  implementation, this would contain the complete article
-                  content with proper formatting, code examples, and detailed
-                  explanations.
-                </p>
-                <p>
-                  The article would continue with in-depth technical details,
-                  step-by-step guides, and practical examples that readers can
-                  follow along with.
-                </p>
+                <div
+                  className="article-content"
+                  dangerouslySetInnerHTML={{ __html: selectedPost.content }}
+                />
               </div>
             </div>
           </div>
