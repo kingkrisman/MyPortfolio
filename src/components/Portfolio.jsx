@@ -71,27 +71,31 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          <div className="work">
-            <img
-              src="https://res.cloudinary.com/duycrcary/image/upload/v1743982910/Untitled_design_21_t82ric.png"
-              alt="Work 3"
-            />
-            <div className="layer">
-              <h3>Bank Dashboard</h3>
-              <p>
-                A modern, responsive bank dashboard interface designed to
-                visualize financial data and manage user accounts.
-              </p>
-              <div className="link">
-                <a href="https://kingkrisman.github.io/BankDashbord/"> 🔗</a>{" "}
-                <a href="https://github.com/kingkrisman/BankDashbord.git">🧑‍💻</a>
-              </div>
-            </div>
-          </div>
-
           {/* Additional work items shown when "See More" is clicked */}
           {showMore && (
             <>
+              <div className="work">
+                <img
+                  src="https://res.cloudinary.com/duycrcary/image/upload/v1743982910/Untitled_design_21_t82ric.png"
+                  alt="Work 3"
+                />
+                <div className="layer">
+                  <h3>Bank Dashboard</h3>
+                  <p>
+                    A modern, responsive bank dashboard interface designed to
+                    visualize financial data and manage user accounts.
+                  </p>
+                  <div className="link">
+                    <a href="https://kingkrisman.github.io/BankDashbord/">
+                      {" "}
+                      🔗
+                    </a>{" "}
+                    <a href="https://github.com/kingkrisman/BankDashbord.git">
+                      🧑‍💻
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div className="work">
                 <img
                   src="https://res.cloudinary.com/duycrcary/image/upload/v1743942403/work-7_yuttqp.png"
