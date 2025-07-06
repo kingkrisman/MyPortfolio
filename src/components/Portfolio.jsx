@@ -19,6 +19,25 @@ const Portfolio = () => {
           {/* Default work items */}
           <div className="work">
             <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fa60f75f82e1740d2898e900ca0249b8c%2F2938eff5bc9c447aadd336f53a7ea6ed?format=webp&width=800"
+              alt="Da'Sayonce Real Estate"
+            />
+            <div className="layer">
+              <h3>Da'Sayonce Real Estate</h3>
+              <p>
+                Leading development of complex web applications using modern
+                tech stack. Specializing in React, Node.js, and cloud solutions.
+              </p>
+              <div className="link">
+                <a href="https://www.dasayoncerealestate.com"> 🔗</a>{" "}
+                <a href="https://github.com/kingkrisman/Builder-nova-sanctuary.git">
+                  🧑‍💻
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="work">
+            <img
               src="https://res.cloudinary.com/duycrcary/image/upload/v1743982914/Untitled_design_27_nqdwer.png"
               alt="Work 1"
             />
@@ -48,7 +67,9 @@ const Portfolio = () => {
               </p>
               <div className="link">
                 <a href="https://kingkrisman.github.io/DrawingDesk/"> 🔗</a>{" "}
-                <a href="https://github.com/kingkrisman/DrawingDesk.git">🧑‍💻</a>
+                <a href="https://github.com/kingkrisman/DrawingDesk.git">
+                  🧑‍��
+                </a>
               </div>
             </div>
           </div>
