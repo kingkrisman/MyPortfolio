@@ -127,7 +127,6 @@ const Portfolio = () => {
             </p>
           </div>
 
-
           {/* Statistics */}
           <div className="portfolio-stats">
             <div className="stat-item">
@@ -167,16 +166,17 @@ const Portfolio = () => {
               alt="Work 1"
             />
 
-
-
- <div className="layer">
+            <div className="layer">
               <h3>Da'Sayonce Real Estate</h3>
               <p>
-               Leading development of complex web applications using modern tech stack. Specializing in React, Node.js, and cloud solutions.
+                Leading development of complex web applications using modern
+                tech stack. Specializing in React, Node.js, and cloud solutions.
               </p>
               <div className="link">
                 <a href="https://www.dasayoncerealestate.com"> 🔗</a>{" "}
-                <a href="https://github.com/kingkrisman/Builder-nova-sanctuary.git">🧑‍💻</a>
+                <a href="https://github.com/kingkrisman/Builder-nova-sanctuary.git">
+                  🧑‍💻
+                </a>
               </div>
             </div>
           </div>
@@ -185,8 +185,6 @@ const Portfolio = () => {
               src="https://res.cloudinary.com/duycrcary/image/upload/v1751827612/WhatsApp_Image_2025-05-02_at_12.58.30_2c13b2e7_oouh2f.jpg"
               alt="Work 3"
             />
-
-
 
             <div className="layer">
               <h3>Redefine Gaming</h3>
@@ -226,12 +224,15 @@ const Portfolio = () => {
                 <h3>Drawing Canvas</h3>
                 <p>
                   An interactive web-based drawing application built with HTML5
-                  Canvas, JavaScript, and CSS. Users can draw freely, choose brush
-                  colors and sizes, clear the canvas, and download their artwork.
+                  Canvas, JavaScript, and CSS. Users can draw freely, choose
+                  brush colors and sizes, clear the canvas, and download their
+                  artwork.
                 </p>
                 <div className="link">
                   <a href="https://kingkrisman.github.io/DrawingDesk/"> 🔗</a>{" "}
-                  <a href="https://github.com/kingkrisman/DrawingDesk.git">🧑‍💻</a>
+                  <a href="https://github.com/kingkrisman/DrawingDesk.git">
+                    🧑‍💻
+                  </a>
                 </div>
               </div>
 
@@ -252,8 +253,8 @@ const Portfolio = () => {
                         A sleek, responsive video streaming platform inspired by
                         Netflix. it features dynamic movie listings, category
                         browsing, and video previews. This project demonstrates
-                        frontend development, API integration, and interactive UI
-                        design.
+                        frontend development, API integration, and interactive
+                        UI design.
                       </p>
                       <div className="link">
                         <a href="https://kingkrisman.github.io/Netflix_clone/">
@@ -270,6 +271,7 @@ const Portfolio = () => {
               </div>
             </>
           )}
+        </div>
 
         {/* Projects Grid */}
         <div className="projects-grid">
