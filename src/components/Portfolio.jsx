@@ -187,7 +187,7 @@ const Portfolio = () => {
             />
 
 
-            
+
             <div className="layer">
               <h3>Redefine Gaming</h3>
               <p>
@@ -205,7 +205,7 @@ const Portfolio = () => {
               src="https://res.cloudinary.com/duycrcary/image/upload/v1743982908/Untitled_design_17_zmvmle.png"
               alt="Work 4"
             />
-           
+
             <div className="layer">
               <h3>Bank Dashboard</h3>
               <p>
@@ -222,58 +222,54 @@ const Portfolio = () => {
           {/* Additional work items shown when "See More" is clicked */}
           {showMore && (
             <>
-
-
-
-            <div className="work">
-              <h3>Drawing Canvas</h3>
-              <p>
-                An interactive web-based drawing application built with HTML5
-                Canvas, JavaScript, and CSS. Users can draw freely, choose brush
-                colors and sizes, clear the canvas, and download their artwork.
-              </p>
-              <div className="link">
-                <a href="https://kingkrisman.github.io/DrawingDesk/"> 🔗</a>{" "}
-                <a href="https://github.com/kingkrisman/DrawingDesk.git">🧑‍💻</a>
-              </div>
-            </div>
-          </div>
-          <div className="work">
-            <img
-              src="https://res.cloudinary.com/duycrcary/image/upload/v1743982910/Untitled_design_21_t82ric.png"
-              alt="Work 3"
-            />
-            <div className="layer">
-
-
-
-              
               <div className="work">
-                <img
-                  src="https://res.cloudinary.com/duycrcary/image/upload/v1743942403/work-7_yuttqp.png"
-                  alt="Work 5"
-                />
-                <div className="layer">
-                  <h3>Netflix clone</h3>
-                  <p>
-                    A sleek, responsive video streaming platform inspired by
-                    Netflix. it features dynamic movie listings, category
-                    browsing, and video previews. This project demonstrates
-                    frontend development, API integration, and interactive UI
-                    design.
-                  </p>
-                  <div className="link">
-                    <a href="https://kingkrisman.github.io/Netflix_clone/">
-                      {" "}
-                      🔗
-                    </a>{" "}
-                    <a href="https://github.com/kingkrisman/Netflix_clone.git">
-                      🧑‍💻
-                    </a>
-                  </div>
+                <h3>Drawing Canvas</h3>
+                <p>
+                  An interactive web-based drawing application built with HTML5
+                  Canvas, JavaScript, and CSS. Users can draw freely, choose brush
+                  colors and sizes, clear the canvas, and download their artwork.
+                </p>
+                <div className="link">
+                  <a href="https://kingkrisman.github.io/DrawingDesk/"> 🔗</a>{" "}
+                  <a href="https://github.com/kingkrisman/DrawingDesk.git">🧑‍💻</a>
                 </div>
               </div>
 
+              <div className="work">
+                <img
+                  src="https://res.cloudinary.com/duycrcary/image/upload/v1743982910/Untitled_design_21_t82ric.png"
+                  alt="Work 3"
+                />
+                <div className="layer">
+                  <div className="work">
+                    <img
+                      src="https://res.cloudinary.com/duycrcary/image/upload/v1743942403/work-7_yuttqp.png"
+                      alt="Work 5"
+                    />
+                    <div className="layer">
+                      <h3>Netflix clone</h3>
+                      <p>
+                        A sleek, responsive video streaming platform inspired by
+                        Netflix. it features dynamic movie listings, category
+                        browsing, and video previews. This project demonstrates
+                        frontend development, API integration, and interactive UI
+                        design.
+                      </p>
+                      <div className="link">
+                        <a href="https://kingkrisman.github.io/Netflix_clone/">
+                          {" "}
+                          🔗
+                        </a>{" "}
+                        <a href="https://github.com/kingkrisman/Netflix_clone.git">
+                          🧑‍💻
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
 
         {/* Projects Grid */}
         <div className="projects-grid">
