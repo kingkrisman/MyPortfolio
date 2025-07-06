@@ -127,6 +127,7 @@ const Portfolio = () => {
             </p>
           </div>
 
+
           {/* Statistics */}
           <div className="portfolio-stats">
             <div className="stat-item">
@@ -157,6 +158,122 @@ const Portfolio = () => {
             </button>
           ))}
         </div>
+
+        <div className="work-list">
+          {/* Default work items */}
+          <div className="work">
+            <img
+              src="https://res.cloudinary.com/duycrcary/image/upload/v1743982914/Untitled_design_27_nqdwer.png"
+              alt="Work 1"
+            />
+
+
+
+ <div className="layer">
+              <h3>Da'Sayonce Real Estate</h3>
+              <p>
+               Leading development of complex web applications using modern tech stack. Specializing in React, Node.js, and cloud solutions.
+              </p>
+              <div className="link">
+                <a href="https://www.dasayoncerealestate.com"> 🔗</a>{" "}
+                <a href="https://github.com/kingkrisman/Builder-nova-sanctuary.git">🧑‍💻</a>
+              </div>
+            </div>
+          </div>
+          <div className="work">
+            <img
+              src="https://res.cloudinary.com/duycrcary/image/upload/v1751827612/WhatsApp_Image_2025-05-02_at_12.58.30_2c13b2e7_oouh2f.jpg"
+              alt="Work 3"
+            />
+
+
+            
+            <div className="layer">
+              <h3>Redefine Gaming</h3>
+              <p>
+                I designed and developed a website that is visually appealing
+                and eye catching with Gsap animations.
+              </p>
+              <div className="link">
+                <a href="https://gaming-site-two.vercel.app/"> 🔗</a>{" "}
+                <a href="https://github.com/kingkrisman/Gaming_Site.git">🧑‍💻</a>
+              </div>
+            </div>
+          </div>
+          <div className="work">
+            <img
+              src="https://res.cloudinary.com/duycrcary/image/upload/v1743982908/Untitled_design_17_zmvmle.png"
+              alt="Work 4"
+            />
+           
+            <div className="layer">
+              <h3>Bank Dashboard</h3>
+              <p>
+                A modern, responsive bank dashboard interface designed to
+                visualize financial data and manage user accounts.
+              </p>
+              <div className="link">
+                <a href="https://kingkrisman.github.io/BankDashbord/"> 🔗</a>{" "}
+                <a href="https://github.com/kingkrisman/BankDashbord.git">🧑‍💻</a>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional work items shown when "See More" is clicked */}
+          {showMore && (
+            <>
+
+
+
+            <div className="work">
+              <h3>Drawing Canvas</h3>
+              <p>
+                An interactive web-based drawing application built with HTML5
+                Canvas, JavaScript, and CSS. Users can draw freely, choose brush
+                colors and sizes, clear the canvas, and download their artwork.
+              </p>
+              <div className="link">
+                <a href="https://kingkrisman.github.io/DrawingDesk/"> 🔗</a>{" "}
+                <a href="https://github.com/kingkrisman/DrawingDesk.git">🧑‍💻</a>
+              </div>
+            </div>
+          </div>
+          <div className="work">
+            <img
+              src="https://res.cloudinary.com/duycrcary/image/upload/v1743982910/Untitled_design_21_t82ric.png"
+              alt="Work 3"
+            />
+            <div className="layer">
+
+
+
+              
+              <div className="work">
+                <img
+                  src="https://res.cloudinary.com/duycrcary/image/upload/v1743942403/work-7_yuttqp.png"
+                  alt="Work 5"
+                />
+                <div className="layer">
+                  <h3>Netflix clone</h3>
+                  <p>
+                    A sleek, responsive video streaming platform inspired by
+                    Netflix. it features dynamic movie listings, category
+                    browsing, and video previews. This project demonstrates
+                    frontend development, API integration, and interactive UI
+                    design.
+                  </p>
+                  <div className="link">
+                    <a href="https://kingkrisman.github.io/Netflix_clone/">
+                      {" "}
+                      🔗
+                    </a>{" "}
+                    <a href="https://github.com/kingkrisman/Netflix_clone.git">
+                      🧑‍💻
+                    </a>
+                  </div>
+                </div>
+              </div>
+
 
         {/* Projects Grid */}
         <div className="projects-grid">
