@@ -19,7 +19,7 @@ const Portfolio = () => {
           {/* Default work items */}
           <div className="work">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fa60f75f82e1740d2898e900ca0249b8c%2F2938eff5bc9c447aadd336f53a7ea6ed?format=webp&width=800"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fa60f75f82e1740d2898e900ca0249b8c%2F45bc02de19904365b2a6f5524ea108b2?format=webp&width=800"
               alt="Da'Sayonce Real Estate"
             />
             <div className="layer">
@@ -67,9 +67,7 @@ const Portfolio = () => {
               </p>
               <div className="link">
                 <a href="https://kingkrisman.github.io/DrawingDesk/"> 🔗</a>{" "}
-                <a href="https://github.com/kingkrisman/DrawingDesk.git">
-                  🧑‍��
-                </a>
+                <a href="https://github.com/kingkrisman/DrawingDesk.git">🧑‍💻</a>
               </div>
             </div>
           </div>
